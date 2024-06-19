@@ -9,7 +9,7 @@
 3. Navigate into the project directory
 
    ```bash
-   $ cd synthetic-patient-portal-message
+   $ cd DREAM_generator
    ```
 
 4. Create a new virtual environment
