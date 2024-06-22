@@ -1,0 +1,8 @@
+﻿taxa1,taxa2,taxa3,Avoid words,Frequency
+Information seeking,Symptoms or condition,NA,NA,0.148148148
+Information seeking,Logistics,NA,NA,0.456790123
+Information sharing,Self-reporting of ,Self-measured clinical results,NA,0.562610229
+Information sharing,Self-reporting of ,Clinical information,NA,0.67372134
+Task-oriented request,Prescription request of,Refills/renewals,NA,0.871252205
+Task-oriented request,Prescription request of,New med request,NA,0.941798942
+Task-oriented request,Scheduling request for ,New condition or symptom,NA,1

@@ -43,3 +43,7 @@ or use the command
    $ python script.py -h
    ```
 for help on the flag usage.
+
+## Data Samples
+The taxonomy and medicine list files must be stored in assets folder.
+A sample file for each is available in the assets folder.
