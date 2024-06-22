@@ -27,7 +27,9 @@
 
 ## OpenAI API Key
 
-Please refer to the [documentation](https://platform.openai.com/docs/quickstart/step-2-setup-your-api-key) to learn how to setup your API Key.
+In this we have used Azure OpenAI API [documenation](https://azure.microsoft.com/en-us/products/ai-services/openai-service/) but you could use OpenAI API using the [documentation](https://platform.openai.com/docs/quickstart/step-2-setup-your-api-key) to learn how to setup your OpenAI API Key.
+
+Please refer to the 
 
 ## Run script
 
