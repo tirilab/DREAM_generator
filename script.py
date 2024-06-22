@@ -3,13 +3,10 @@ from openai import AzureOpenAI
 import csv
 import prompts
 import argparse
-from azure_creds import get_key
-endpoint = "https://jh-llm-tiri-ai02.openai.azure.com/"
-api_key = get_key()
 client = AzureOpenAI(
-        azure_endpoint=endpoint,
-        api_key=api_key,
-        api_version="2023-09-01-preview"
+        azure_endpoint="YOUR_AZURE_ENDPOINT",
+        api_key="YOUR_AZURE_API_KEY",
+        api_version="API_VERSION"
         )
 
 
