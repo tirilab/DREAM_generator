@@ -12,10 +12,10 @@ client = AzureOpenAI(
 
 def main(args): 
     # Load data
-    with open('asset/'+ args.taxonomy_file , 'r') as tfile:
+    with open('assets/'+ args.taxonomy_file , 'r') as tfile:
       taxa =list(csv.reader(tfile, delimiter=","))
 
-    with open('asset/'+ args.medlist_file, 'r') as mfile:
+    with open('assets/'+ args.medlist_file, 'r') as mfile:
       med =list(csv.reader(mfile, delimiter=";"))
     
     # Prepare results
