@@ -1,21 +1,20 @@
 # This code is for v1 of the openai package: pypi.org/project/openai
-from openai import AzureOpenAI
+from openai import OpenAI
 import csv
 import prompts
 import argparse
-client = AzureOpenAI(
-        azure_endpoint="YOUR_AZURE_ENDPOINT",
-        api_key="YOUR_AZURE_API_KEY",
-        api_version="API_VERSION"
-        )
+client = OpenAI(
+    # Insert openai api key here
+    api_key="",
+)
 
 
 def main(args): 
     # Load data
-    with open('asset/'+ args.taxonomy_file , 'r') as tfile:
+    with open('assets/'+ args.taxonomy_file , 'r') as tfile:
       taxa =list(csv.reader(tfile, delimiter=","))
 
-    with open('asset/'+ args.medlist_file, 'r') as mfile:
+    with open('assets/'+ args.medlist_file, 'r') as mfile:
       med =list(csv.reader(mfile, delimiter=";"))
     
     # Prepare results
