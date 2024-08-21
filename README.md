@@ -29,6 +29,12 @@
 
 Please refer this [documentation](https://platform.openai.com/docs/quickstart/step-2-setup-your-api-key) to learn how to setup your OpenAI API Key.
 
+After getting an API key use the command in the command line
+```
+export OPENAI_API_KEY='YOUR_API_KEY'
+```
+and change the `YOUR_API_KEY` with the actual API key.
+
 ## Run script
 
 To generate message data, first replace the api_key in [script.py](https://github.com/tirilab/synthetic-patient-portal-message/blob/main/script.py). Then run the following comment under the project directory:

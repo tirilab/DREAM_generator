@@ -3,11 +3,8 @@ from openai import OpenAI
 import csv
 import prompts
 import argparse
-client = OpenAI(
-    # Insert openai api key here
-    api_key="",
-)
 
+client = OpenAI()
 
 def main(args): 
     # Load data
@@ -25,7 +22,7 @@ def main(args):
 
       # API call for gpt
       response = client.chat.completions.create(
-        model="test",
+        model="gpt-4o-mini",
         messages=[
           {
             "role": "system",
