@@ -53,3 +53,9 @@ for help on the flag usage.
 ## Data Samples
 The taxonomy and medicine list files must be stored in assets folder.
 A sample file for each is available in the assets folder.
+
+## License and Citation
+
+Data and script can be used as-is under the [MIT License](https://github.com/tirilab/DREAM_generator/blob/main/LICENSE) attached to the repository. Please cite this article if using this data or script:
+
+Wang, Natalie and Lu, Yuzhi and Treewaree, Sukrit and Zirikly, Ayah and Nguyen, Michelle and Agarwal, Bhavik and Shah, Jash and Stevenson, James and Taylor, Casey O., Prompt Engineering to Generate Synthetic Patient Portal Drug-Related Communications (June 20, 2024). Available at SSRN: https://ssrn.com/abstract=4872174 or http://dx.doi.org/10.2139/ssrn.4872174 
