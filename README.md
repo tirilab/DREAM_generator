@@ -58,4 +58,6 @@ A sample file for each is available in the assets folder.
 
 Data and script can be used as-is under the [MIT License](https://github.com/tirilab/DREAM_generator/blob/main/LICENSE) attached to the repository. Please cite this article if using this data or script:
 
-Wang, Natalie and Lu, Yuzhi and Treewaree, Sukrit and Zirikly, Ayah and Nguyen, Michelle and Agarwal, Bhavik and Shah, Jash and Stevenson, James and Taylor, Casey O., Prompt Engineering to Generate Synthetic Patient Portal Drug-Related Communications (June 20, 2024). Available at SSRN: https://ssrn.com/abstract=4872174 or http://dx.doi.org/10.2139/ssrn.4872174 
+Natalie Wang, Sukrit Treewaree, Ayah Zirikly, Yuzhi L. Lu, Michelle H. Nguyen, Bhavik Agarwal, Jash Shah, James Michael Stevenson, Casey Overby Taylor,
+Taxonomy-based prompt engineering to generate synthetic drug-related patient portal messages,
+Journal of Biomedical Informatics, Volume 160, 2024, 104752, ISSN 1532-0464, https://doi.org/10.1016/j.jbi.2024.104752.
