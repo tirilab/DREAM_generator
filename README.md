@@ -1,4 +1,4 @@
-# DREAM Generator
+# Drug-Related Engagment And Messaging (DREAM) Generator
 
 ## Environment Setup
 
